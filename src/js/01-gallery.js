@@ -12,7 +12,7 @@ galleryEl.insertAdjacentHTML("beforeend", galleryItems
     alt="${description}"
   />
 </a>
-</div>`).join("\n"));
+</div>`).join(""));
 new SimpleLightBox(".gallery a", {
   scrollZoom: false,
   captionDelay: 250,
